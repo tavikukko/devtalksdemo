@@ -16,7 +16,7 @@ angular.module('app.controllers', [])
                 var url = window.URL || window.webkitURL;
                 var blobUrl = url.createObjectURL(image);
                 $scope.imageUrl = blobUrl;
-            }).error(function(err) {
+            }).error(function(error) {
                 alert(JSON.stringify(error));
             });
 
