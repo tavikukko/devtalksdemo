@@ -1,9 +1,9 @@
 <ion-view title="Files" id="page2">
     <ion-content overflow-scroll="true" padding="true" class="has-header">
         <ion-list>
-            <ion-item>Item 1</ion-item>
-            <ion-item>Item 2</ion-item>
-            <ion-item>Item 3</ion-item>
+            <ion-item collection-repeat="item in items">
+                <h2>{{item.name}}</h2>
+            </ion-item>
         </ion-list>
     </ion-content>
 </ion-view>

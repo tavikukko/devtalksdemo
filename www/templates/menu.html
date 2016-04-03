@@ -14,11 +14,18 @@
         </ion-header-bar>
         <ion-content padding="false" class="side-menu-left has-header">
             <ion-list>
+
+                <div class="item item-avatar">
+                    <img data-ng-src="{{imageUrl}}" />
+                    <h2>{{displayableId}}</h2>
+                    <p style="font-size:50%;">{{uniqueId}}</p>
+                </div>
+
                 <ion-item ui-sref="menu.messages" menu-close="">Messages</ion-item>
                 <ion-item ui-sref="menu.files" menu-close="">Files</ion-item>
                 <ion-item ui-sref="menu.events" menu-close="">Events</ion-item>
             </ion-list>
-            <button id="menu-button1" class="button button-positive  button-block icon-left ion-log-out">Signout</button>
+            <button id="menu-button1" class="button button-positive  button-block icon-left ion-log-out" ng-click="signout()">Signout</button>
         </ion-content>
     </ion-side-menu>
 </ion-side-menus>
