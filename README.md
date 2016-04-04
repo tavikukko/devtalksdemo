@@ -1,6 +1,10 @@
 ## Using this project
 
-Make sure ionic and ios/android/win SDK installed
+### Installing Ionic and its Dependencies
+
+#### Prerequirements
+* Git
+* NodeJS
 
 ### Installing ionic with cordova
 ```bash
@@ -9,11 +13,9 @@ $ npm install -g cordova ionic
 
 ### Clone repository
 ```bash
-git clone https://github.com/tavikukko/devtalksdemo.git
-```
+$ git clone https://github.com/tavikukko/devtalksdemo.git
+$ cd devtalksdemo
 
-### Running this project
-```bash
 $ ionic plugin add cordova-plugin-ms-adal
 $ ionic platform add ios
 $ ionic emulate ios -lr -c
