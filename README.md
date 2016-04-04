@@ -1,8 +1,6 @@
 ## Using this project
 
-### Installing Ionic and its Dependencies
-
-#### Prerequirements
+### Prerequisites
 * Git
 * NodeJS
 
@@ -11,7 +9,7 @@
 $ npm install -g cordova ionic
 ```
 
-### Clone repository
+### To run this demo
 ```bash
 $ git clone https://github.com/tavikukko/devtalksdemo.git
 $ cd devtalksdemo
