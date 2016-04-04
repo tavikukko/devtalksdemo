@@ -13,3 +13,6 @@ $ ionic plugin add cordova-plugin-ms-adal
 $ ionic platform add ios
 $ ionic emulate ios -lr -c
 ```
+
+Editor recommended
+https://code.visualstudio.com/
