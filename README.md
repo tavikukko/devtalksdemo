@@ -23,7 +23,7 @@ Here is how to install this demo application using OS X.
 
 * Xcode with Command Line Tools
 
-Then you need to run the following on your terminal:
+**Then you need to run the following on your terminal:**
 
 ```bash
 $ git clone https://github.com/tavikukko/devtalksdemo.git
@@ -49,7 +49,7 @@ Here is the instructions on how to run this application on Windows 10. At the mo
 * Windows 10 SDK
 * Emulators for Windows 10 Mobile
 
-What you need to enable on Visual Studio installer:
+**What you need to enable on Visual Studio installer:**
 
 <img src="https://raw.githubusercontent.com/tavikukko/devtalksdemo/master/vs%20addins.PNG" width="450">
 
