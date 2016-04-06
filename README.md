@@ -42,7 +42,7 @@ $ ionic emulate ios -lr -c
 
 ## Windows 10 with Windows 10 Mobile
 
-Here is the instructions on how to run this application on Windows 10. At the moment, you need to have Visual Studio 2015 Update 2 installed on your environment to emulate it on Windows Phone 10.
+Here is the instructions on how to run this application on Windows 10. At the moment (April, 2016), you need to have Visual Studio 2015 Update 2 installed on your environment to emulate it on Windows Phone 10.
 
 **Prerequisites:**
 
