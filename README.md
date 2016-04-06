@@ -1,6 +1,6 @@
 # DevTalks Demo 2016, Helsinki
 
-This is the application was was demoed at [DevTalks 2016](http://www.devtalks.fi/). 
+This is the application was first demoed at [DevTalks 2016](http://www.devtalks.fi/). 
 
 Here is the instrunction to run this in your local environment.
 
