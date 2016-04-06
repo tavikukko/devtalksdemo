@@ -59,13 +59,16 @@ Here is the instructions on how to run this application on Windows 10. At the mo
 $ git clone https://github.com/tavikukko/devtalksdemo.git
 $ cd devtalksdemo
 
+# Installs ADAL Cordova Plugin to the Project
 $ ionic plugin add cordova-plugin-ms-adal
+
+# Adding Platforms to the Project
 $ ionic platform add "windows@https://aka.ms/cordova-win10"
 ```
 
-**The adjustments that needs to be done for this project to work:**
+**To start the emulator you need to do the following:**
 
 1. Open the project file located in `..devtalksdemo\platforms\windows\CordovaApp.Windows10` with Visual Studio
-2. Select x86 + Mobile Emulator 10.0 from the Ribbon, and Press play do emulate :)
+2. Select x86 + Mobile Emulator 10.0 from the Ribbon, and Press play to emulate :)
 
 <img src="https://raw.githubusercontent.com/tavikukko/devtalksdemo/master/visualstudioemulating.PNG" width="450">
