@@ -15,7 +15,7 @@ Here is the instructions to run this in your local environment.
 $ npm install -g cordova ionic
 ```
 
-### OS X
+### OS X with iOS
 
 Here is how to install this demo application using OS X.
 
@@ -35,13 +35,13 @@ $ ionic plugin add cordova-plugin-ms-adal
 # Adding Platforms to the Project
 $ ionic platform add ios
 
-# Starts the IOS Emulator (-lr = Live Reload, -c = Logging to the Console)
+# Starts the iOS Emulator (-lr = Live Reload, -c = Logging to the Console)
 $ ionic emulate ios -lr -c
 ```
 
-### Windows 10
+### Windows 10 with Windows 10 Mobile
 
-Here is the instructions on how to run this application on Windows 10.
+Here is the instructions on how to run this application on Windows 10. At the moment, you need to have Visual Studio 2015 Update 2 installed on your environment to emulate it on Windows Phone 10.
 
 **Prerequisites:**
 
@@ -69,7 +69,3 @@ $ ionic platform add "windows@https://aka.ms/cordova-win10"
 2. Select x86 + Mobile Emulator 10.0 from the Ribbon, and Press play do emulate :)
 
 <img src="https://raw.githubusercontent.com/tavikukko/devtalksdemo/master/visualstudioemulating.PNG" width="450">
-
-### Recommend IDE
-
-[VSCode](https://code.visualstudio.com) with [Cordova Tools Extension] (https://marketplace.visualstudio.com/items?itemName=vsmobile.cordova-tools)
