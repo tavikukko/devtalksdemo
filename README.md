@@ -72,3 +72,7 @@ $ ionic platform add "windows@https://aka.ms/cordova-win10"
 2. Select x86 + Mobile Emulator 10.0 from the Ribbon, and press play to emulate, ;)
 
 <img src="https://raw.githubusercontent.com/tavikukko/devtalksdemo/master/visualstudioemulating.PNG" width="450">
+
+## OS with Android
+
+install and configure Java and Android Studio and survive :D
