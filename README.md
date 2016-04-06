@@ -31,10 +31,8 @@ $ ionic platform add "windows@https://aka.ms/cordova-win10"
 ```
 
 - Open the project file located in ..devtalksdemo\platforms\windows\CordovaApp.Windows10 with Visual Studio
-- Select x86 + Mobile Emulator 10.0 the ribbon. Press play..
+- Select x86 + Mobile Emulator 10.0 from the ribbon. Press play do emulate :)
 <img src="https://raw.githubusercontent.com/tavikukko/devtalksdemo/master/visualstudioemulating.PNG" width="450">
-
-
 
 ###Editor
 [VSCode](https://code.visualstudio.com) with [Cordova Tools Extension] (https://marketplace.visualstudio.com/items?itemName=vsmobile.cordova-tools)
