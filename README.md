@@ -2,7 +2,7 @@
 
 This is the application was first demoed at [DevTalks 2016](http://www.devtalks.fi/). 
 
-Here are the instructions to run this in your local environment.
+Here is the instructions to run this in your local environment.
 
 ## Prerequisites
 
