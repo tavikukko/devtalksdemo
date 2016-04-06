@@ -19,6 +19,12 @@ $ npm install -g cordova ionic
 
 Here is how to install this demo application using OS X.
 
+**Prerequisites:**
+
+* Xcode with Command Line Tools
+
+Then you need to run the following on your terminal:
+
 ```bash
 $ git clone https://github.com/tavikukko/devtalksdemo.git
 $ cd devtalksdemo
@@ -32,7 +38,7 @@ $ ionic emulate ios -lr -c
 
 Here is the instructions on how to run this application on Windows 10.
 
-**Prerequisities:**
+**Prerequisites:**
 
 * Visual Studio 2015 Update 2
 * Windows 10 SDK
