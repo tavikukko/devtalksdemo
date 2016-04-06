@@ -29,8 +29,13 @@ Then you need to run the following on your terminal:
 $ git clone https://github.com/tavikukko/devtalksdemo.git
 $ cd devtalksdemo
 
+# Installs ADAL Cordova Plugin to the Project
 $ ionic plugin add cordova-plugin-ms-adal
+
+# Adding Platforms to the Project
 $ ionic platform add ios
+
+# Starts the IOS Emulator (-lr = Live Reload, -c = Logging to the Console)
 $ ionic emulate ios -lr -c
 ```
 
