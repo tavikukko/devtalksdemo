@@ -9,13 +9,13 @@ Here is the instructions to run this in your local environment.
 * Git
 * NodeJS
 
-## Installing Ionic and Cordova
+### Installing Ionic and Cordova
 
 ```bash
 $ npm install -g cordova ionic
 ```
 
-### OS X with iOS
+## OS X with iOS
 
 Here is how to install this demo application using OS X.
 
@@ -39,7 +39,7 @@ $ ionic platform add ios
 $ ionic emulate ios -lr -c
 ```
 
-### Windows 10 with Windows 10 Mobile
+## Windows 10 with Windows 10 Mobile
 
 Here is the instructions on how to run this application on Windows 10. At the moment, you need to have Visual Studio 2015 Update 2 installed on your environment to emulate it on Windows Phone 10.
 
