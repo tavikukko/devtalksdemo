@@ -30,7 +30,7 @@ $ ionic emulate ios -lr -c
 
 ### Windows 10
 
-Here is the instructions how to run this application on Windows 10.
+Here is the instructions on how to run this application on Windows 10.
 
 **Prerequisities:**
 
