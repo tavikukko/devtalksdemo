@@ -9,7 +9,7 @@
 $ npm install -g cordova ionic
 ```
 
-### To run this demo
+### To run this demo (osx + xcode)
 ```bash
 $ git clone https://github.com/tavikukko/devtalksdemo.git
 $ cd devtalksdemo
