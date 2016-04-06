@@ -1,15 +1,24 @@
-## Using this project
+# DevTalks Demo 2016, Helsinki
 
-### Prerequisites
+This is the application was was demoed at [DevTalks 2016](http://www.devtalks.fi/). 
+
+Here is the instrunction to run this in your local environment.
+
+## Prerequisites
+
 * Git
 * NodeJS
 
-### Installing ionic with cordova
+## Installing Ionic and Cordova
+
 ```bash
 $ npm install -g cordova ionic
 ```
 
-### To run this demo (osx + xcode)
+### OS X
+
+Here is how to install this demo application using OS X.
+
 ```bash
 $ git clone https://github.com/tavikukko/devtalksdemo.git
 $ cd devtalksdemo
@@ -19,8 +28,21 @@ $ ionic platform add ios
 $ ionic emulate ios -lr -c
 ```
 
-### To run this demo (windows 10 + visual studio 2015 update 2 + windows 10 SDK + emulators for windows 10 mobile)
+### Windows 10
+
+Here is the instructions how to run this application on Windows 10.
+
+**Prerequisities:**
+
+* Visual Studio 2015 Update 2
+* Windows 10 SDK
+* Emulators for Windows 10 Mobile
+
+What you need to enable on Visual Studio installer:
+
 <img src="https://raw.githubusercontent.com/tavikukko/devtalksdemo/master/vs%20addins.PNG" width="450">
+
+**Installation**
 
 ```bash
 $ git clone https://github.com/tavikukko/devtalksdemo.git
@@ -30,9 +52,13 @@ $ ionic plugin add cordova-plugin-ms-adal
 $ ionic platform add "windows@https://aka.ms/cordova-win10"
 ```
 
-- Open the project file located in ..devtalksdemo\platforms\windows\CordovaApp.Windows10 with Visual Studio
-- Select x86 + Mobile Emulator 10.0 from the ribbon. Press play do emulate :)
+**The adjustments that needs to be done for this project to work:**
+
+1. Open the project file located in `..devtalksdemo\platforms\windows\CordovaApp.Windows10` with Visual Studio
+2. Select x86 + Mobile Emulator 10.0 from the Ribbon, and Press play do emulate :)
+
 <img src="https://raw.githubusercontent.com/tavikukko/devtalksdemo/master/visualstudioemulating.PNG" width="450">
 
-###Editor
+### Recommend IDE
+
 [VSCode](https://code.visualstudio.com) with [Cordova Tools Extension] (https://marketplace.visualstudio.com/items?itemName=vsmobile.cordova-tools)
