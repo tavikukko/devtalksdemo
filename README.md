@@ -76,7 +76,7 @@ $ ionic platform add "windows@https://aka.ms/cordova-win10"
 
 ## All OSs with Android
 
-Install and configure Java and Android Studio and you are good to go, but the emaulator are just too slow... :D
+Install and configure Java and Android Studio and you are good to go, but the emulators (Android Studio and Genymotion) are just too slow... :D
 
 ```bash
 $ git clone https://github.com/tavikukko/devtalksdemo.git
