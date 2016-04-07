@@ -15,7 +15,7 @@ Here are the instructions to run this in your local environment.
 $ npm install -g cordova ionic
 ```
 
-### Office 365 subscription
+### Office 365 Subscription
 [http://dev.office.com](http://dev.office.com/)
 
 ## OS X with iOS
